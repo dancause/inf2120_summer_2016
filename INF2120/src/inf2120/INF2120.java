@@ -26,9 +26,9 @@ public class INF2120 {
     System.out.println( c1.toString() );
     System.out.println( c2.toString() );
     Bien [] liste=new Bien[3];
-    liste[0]=new Livre(0);
+    liste[0]=new Livre(10);
     liste[1]=new Meuble(10);
-    liste[2]=new Legume(0);
+    liste[2]=new Legume(10);
     
     System.out.println(montant(liste)+"$");
     

@@ -4,26 +4,25 @@
  * and open the template in the editor.
  */
 package inf2120;
+import java.lang.Math;
 
 /**
  *
  * @author janindancause
  */
-public class forme2d {
-    int x;
-    int y;
-    {
-        x=0;
-        y=1;    
-    }
-    public forme2d(){
+public class Cercle extends Forme2D {
     
-    }
-    public forme2d(int ax,int ay){
-    x=ax;
-    y=ay;
-    }
+    public double rayon;
     
-    
+    public Cercle(){
+    }
+    public Cercle(double rayon){
+    this.rayon=rayon;
+    }
+   
+    public double Aire(){
+    return Math.sqrt(rayon)*Math.PI;
+    }
+
     
 }
