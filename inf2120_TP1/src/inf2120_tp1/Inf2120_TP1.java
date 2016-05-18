@@ -15,6 +15,8 @@ public class Inf2120_TP1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        /*test*/
         // TODO code application logic here
     }
     
