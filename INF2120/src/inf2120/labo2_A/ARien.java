@@ -3,25 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inf2120.labo1;
+package inf2120.labo2_A;
 
 /**
  *
  * @author janindancause
  */
-public class Bien {
-protected double  prixEtalage; 
-{
-prixEtalage=0.0;
-}
-
-public Bien(double prixEtalage){
-this.prixEtalage=prixEtalage;
-}
-public Bien(){
-}
-
-public double prix(){
-return prixEtalage;
-}
+public class ARien extends Exception {
+    public ARien(){
+    super();
+    }
+    public ARien(String message){
+    super(message);
+    }
+    
 }

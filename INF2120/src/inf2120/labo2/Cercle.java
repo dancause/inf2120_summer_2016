@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inf2120;
+package inf2120.labo2;
+import inf2120.main.Forme2D;
 import java.lang.Math;
 
 /**
@@ -23,6 +24,9 @@ public class Cercle extends Forme2D {
     public double Aire(){
     return Math.sqrt(rayon)*Math.PI;
     }
+
+
+   
 
     
 }

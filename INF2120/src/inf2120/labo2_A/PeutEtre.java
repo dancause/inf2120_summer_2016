@@ -3,25 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inf2120.labo1;
+package inf2120.labo2_A;
 
 /**
  *
  * @author janindancause
+ * @param <T>
  */
-public class Bien {
-protected double  prixEtalage; 
-{
-prixEtalage=0.0;
-}
-
-public Bien(double prixEtalage){
-this.prixEtalage=prixEtalage;
-}
-public Bien(){
-}
-
-public double prix(){
-return prixEtalage;
-}
+public abstract class PeutEtre <T>{
+    public abstract boolean estQQChose();
+    public abstract boolean estRien();
+    public abstract T qQChose() throws ARien;
 }

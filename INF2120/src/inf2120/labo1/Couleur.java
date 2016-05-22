@@ -1,4 +1,4 @@
-package inf2120;
+package inf2120.labo1;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

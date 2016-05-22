@@ -3,13 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inf2120;
+package inf2120.labo2;
+
+import inf2120.main.Forme2D;
+import inf2120.main.Iforme;
 
 /**
  *
  * @author janindancause
  */
-public class Rectangle extends Forme2D{
+public class Rectangle extends Forme2D implements Iforme{
     public int hauteur;
     public int largeur;
     
@@ -23,4 +26,10 @@ public class Rectangle extends Forme2D{
     public double Aire(){
     return hauteur*largeur;
     }
+
+ 
+    public double aire_volume( ){
+         return hauteur*largeur*largeur;
+    }
+
 }
