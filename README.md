@@ -1,3 +1,3 @@
 # inf2120_tp1
-premier TP prog2
-new project
+TP1,TP2,TP3
+
